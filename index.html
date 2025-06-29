@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Number Guessing Game</h1>
+        <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+        
+        <div class="input-group">
+            <input type="number" id="guess" min="1" max="100" placeholder="Your guess">
+            <button id="submit-guess">Guess</button>
+            <button id="new-game">New Game</button>
+        </div>
+        
+        <div id="message"></div>
+        <div id="stats"></div>
+    </div>
+    
+    <div class="highscore-container">
+        <h2>High Scores</h2>
+        <table class="highscore-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Guesses</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="highscore-list">
+                <!-- High scores will be loaded here -->
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="Script.js"></script>
+</body>
+</html>
