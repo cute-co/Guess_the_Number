@@ -34,5 +34,5 @@ To run the game locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/guess-the-number-game.git
+   git clone https://github.com/cute-co/Guess_the_Number.git
 
